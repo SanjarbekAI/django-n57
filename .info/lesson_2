@@ -1,0 +1,15 @@
+1. Models relationships
+2. Template managing
+
+Mashqlar:
+    1. Najot Ta'lim erp platformasini ichki sistemasini modellar strukturasini tuzing.
+       Gamificationni ham qo'shsangiz bo'ladi.
+    2. Uzum
+
+Homework:
+    Kitoblarni ijaraga beruvchi dasturni modelllarini yozish kerak:
+    Sizda userlar bo'ladi va kitoblar. Ma'lum bir userlar
+    malum bir kitoblarni ijaraga olishi mumkin. Bitta user bir
+    paytda bir nechta kitobni ijaraga olishi mumkin.
+    Faqatgina modellarni o'zini yozasiz holos, usha faylni o'zini
+    yoki codeni o'zini yuklang.

@@ -1,0 +1,62 @@
+ORM
+
+Task 1
+Models:
+    Category:
+        Fields: name, description, created_at, updated_at
+        Methods: __str__, __repr__
+        Meta class, verbose_name, verbose_name_plural
+
+    Product:
+        Fields: name, price, category(relation), in_stock, created_at, updated_at
+        Methods: __str__, __repr__
+        Meta class, verbose_name, verbose_name_plural
+
+    Queries:
+        1. Create 3 categories and 5 products, assigning products to categories.
+        2. Retrieve all products under a specific category.
+        3. Update the price of a product by 10%.
+        4. List all products that are out of stock.
+        5. Count the total number of products in each category.
+
+-------------------------------------------------------------------------------------
+
+Task 2
+Models:
+    Event:
+        Fields: title, date, location, created_at, updated_at
+        Methods: __str__, __repr__
+        Meta class, verbose_name, verbose_name_plural
+
+    Participant:
+        Fields: name, email, events(relation), created_at, updated_at
+        Methods: __str__, __repr__
+        Meta class, verbose_name, verbose_name_plural
+
+    Queries:
+        1. Create 3 events and 6 participants. Assign participants to events.
+        2. List all participants registered for a specific event.
+        3. Find all events happening in a specific location.
+        4. Retrieve events with more than 3 participants.
+        5. Delete a participant from a specific event.
+
+-------------------------------------------------------------------------------------
+Homework:
+Models:
+    Blogger:
+        Fields: name, email, created_at, updated_at
+        Methods: __str__, __repr__
+        Meta class, verbose_name, verbose_name_plural
+
+    Post:
+        Fields: title, content, blogger(relation), created_at, updated_at
+        Methods: __str__, __repr__
+        Meta class, verbose_name, verbose_name_plural
+
+    Queries:
+        1. Create 2 bloggers and 4 posts, assigning posts to bloggers.
+        2. Retrieve all posts written by a specific blogger.
+        3. List all posts created in the last 7 days.
+        4. Find the blogger who has written the most posts.
+        5. Delete all posts written by a specific blogger.
+-------------------------------------------------------------------------------------
